@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarun - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="ContactMe.css">
+   
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Tarun's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contact Me</h2>
+        <form action="beckend.php">
+
+            <label for="name"> Name </label>
+            <div>
+                <input type="text" name="myName" id="name">
+            </div>
+            <br>
+
+            <label for="Email"> Email </label>
+            <div>
+                <input type="Email" name="myEmail" id="Email">
+            </div>
+            <br>
+
+            <label for="Role"> Role </label>
+            <div>
+                <input type="role" name="myRole" id="Role">
+            </div>
+            <br>
+
+            <label for="Date"> date </label>
+            <div>
+                <input type="date" name="myDate" id="date">
+            </div><br>
+
+            <label for="Bonus"> Bonus </label>
+            <div>
+                <input type="number" name="myBous" id="Bonus">
+            </div><br>
+
+            <label for="Comments">Comments </label>
+            <div>
+                <br> <textarea name="myText" id="" cols="30" rows="10"></textarea>
+            </div><br>
+
+            <div>
+                <label for="car">Car</label>
+                <select name="myCar" id="car">
+                    <option value="ind">Supraa</option>
+                    <option value="swf">Swift</option>
+                    <option value="swfdzr">SwiftDzire</option>
+                    <option value="ertg">Eirtiga</option>
+                </select>
+            </div><br>
+
+            <label for=" Are you eligible?"> Are you eligible? </label>
+            <div>
+                <input type="checkbox" name="myEligibility" checked id="">
+            </div> <br>
+
+            <div>
+                Gender : Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender"> Other
+                <input type="radio" name="myGender">
+            </div><br>
+
+            <div>
+                <input type="submit" value="Sunmit Now"> <input type="reset" value="Reset Now">
+        </form>
+    </main>
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'Graphic Designer.', 'Web Designer.', 'Video Editor.', 'Digital Marketing.'],
+            typeSpeed: 100,
+        });
+    </script>
+
+</body>
+
+</html>
