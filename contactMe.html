@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="ContactMe.css">
-   
+
 
 </head>
 
@@ -33,65 +33,79 @@
     </header>
 
     <main>
-        <h2>Contact Me</h2>
-        <form action="beckend.php">
-
-            <label for="name"> Name </label>
+        <div>
+            <h2>Contact Me</h2>
             <div>
-                <input type="text" name="myName" id="name">
+                <form action="beckend.php">
+
+                    <label for="name"> Name </label>
+                    <div>
+                        <input type="text" name="myName" id="name">
+                    </div>
+                    <br>
+
+                    <label for="Email"> Email </label>
+                    <div>
+                        <input type="Email" name="myEmail" id="Email">
+                    </div>
+                    <br>
+
+                    <label for="Role"> Role </label>
+                    <div>
+                        <input type="role" name="myRole" id="Role">
+                    </div>
+                    <br>
+
+                    <label for="Date"> date </label>
+                    <div>
+                        <input type="date" name="myDate" id="date">
+                    </div>
+                    <br>
+
+                    <label for="Bonus"> Bonus </label>
+                    <div>
+                        <input type="number" name="myBous" id="Bonus">
+                    </div>
+                    <br>
+
+                    <label for="Comments">Comments </label>
+                    <div>
+                        <br> <textarea name="myText" id="" cols="20" rows="5"></textarea>
+                    </div>
+                    <br>
+
+                    <div>
+                        <label for="car">Car</label>
+                        <select name="myCar" id="car">
+                            <option value="ind">Supraa</option>
+                            <option value="swf">Swift</option>
+                            <option value="swfdzr">SwiftDzire</option>
+                            <option value="ertg">Eirtiga</option>
+                        </select>
+                    </div>
+                    <br>
+
+                    <label for=" Are you eligible?"> Are you eligible? </label>
+                    <div>
+                        <input type="checkbox" name="myEligibility" checked id="">
+                    </div> <br>
+
+                    <div>
+                        Gender : Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+                        Other
+                        <input type="radio" name="myGender">
+                    </div><br>
+
+                    <div>
+                        <input type="submit" value="Sunmit Now"> <input type="reset" value="Reset Now">
+                </form>
             </div>
-            <br>
+        </div>
 
-            <label for="Email"> Email </label>
-            <div>
-                <input type="Email" name="myEmail" id="Email">
-            </div>
-            <br>
+        <footer>
+            <p>&copy; 2023 Your Website. All rights reserved.</p>
+        </footer>
 
-            <label for="Role"> Role </label>
-            <div>
-                <input type="role" name="myRole" id="Role">
-            </div>
-            <br>
-
-            <label for="Date"> date </label>
-            <div>
-                <input type="date" name="myDate" id="date">
-            </div><br>
-
-            <label for="Bonus"> Bonus </label>
-            <div>
-                <input type="number" name="myBous" id="Bonus">
-            </div><br>
-
-            <label for="Comments">Comments </label>
-            <div>
-                <br> <textarea name="myText" id="" cols="30" rows="10"></textarea>
-            </div><br>
-
-            <div>
-                <label for="car">Car</label>
-                <select name="myCar" id="car">
-                    <option value="ind">Supraa</option>
-                    <option value="swf">Swift</option>
-                    <option value="swfdzr">SwiftDzire</option>
-                    <option value="ertg">Eirtiga</option>
-                </select>
-            </div><br>
-
-            <label for=" Are you eligible?"> Are you eligible? </label>
-            <div>
-                <input type="checkbox" name="myEligibility" checked id="">
-            </div> <br>
-
-            <div>
-                Gender : Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender"> Other
-                <input type="radio" name="myGender">
-            </div><br>
-
-            <div>
-                <input type="submit" value="Sunmit Now"> <input type="reset" value="Reset Now">
-        </form>
     </main>
 
     <!-- Load library from the CDN -->

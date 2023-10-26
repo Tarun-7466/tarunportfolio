@@ -12,7 +12,50 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="about.css">
 
-    
+    <style>
+        :root {
+            --green: green;
+            --black: #183415;
+            --light-color: #ebebeb;
+            --box-shadow: 0 .5rem 1.5rem rgba(90, 196, 61, 0.827);
+            --border: 2px solid rgba(90, 196, 61, 0.827);
+            --outline: .1rem solid rgba(0, 128, 0.1);
+
+        }
+
+        main {
+            min-height: 100vh;
+            background-image: url(bg1.jpg);
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        body {
+            background-color: var(--light-color);
+        }
+
+        .about h1 {
+            margin-top: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style: italic;
+            font-size: 3rem;
+            color: var(--light-color);
+        }
+
+        .about {
+            margin-left: 263px;
+            margin-right: 275px;
+        }
+
+        .about p {
+            display: flex;
+            font-family: monospace;
+            font-size: 2rem;
+            color: var(--light-color);
+        }
+    </style>
+
 </head>
 
 <body>
@@ -33,32 +76,36 @@
     </header>
 
 
-            <main>
-                <section id="about">
-                    <h1>About Us</h1>
-                    <p>Welcome to our website! We are a dedicated team working towards...</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates suscipit iste hic non ipsum, officia iure repudiandae error tempore minus molestias dolore placeat sequi facilis, sint excepturi totam pariatur blanditiis praesentium! Unde laudantium debitis dolorem perspiciatis a nisi iure aliquid officia quia eius numquam qui, tempore minima non earum expedita? Explicabo tempore, nihil quasi architecto repellendus saepe maiores dolores eveniet ea labore hic consequatur? Veniam, rerum. Vitae magni, dolorem, molestias, nobis excepturi optio perspiciatis accusantium aperiam assumenda doloremque ratione eum sit voluptatibus itaque quos enim? Ullam, amet perferendis culpa expedita ut fugiat cum, harum iusto ipsum repellat pariatur mollitia quas.</p>
-                </section>
-            </main>
-
-            <footer>
-                <p>&copy; 2023 Your Website. All rights reserved.</p>
-            </footer>
-        </body>
-
-        </html>
-
+    <main>
+        
+        <section class="about">
+            <h1>About Us</h1>
+            <p>Welcome to our website! We are a dedicated team working towards...</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates suscipit iste hic non ipsum,
+                officia
+                iure repudiandae error tempore minus molestias dolore placeat sequi facilis, sint excepturi
+                totam.</p>
+        </section>
     </main>
 
-    <!-- Load library from the CDN -->
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <!-- Setup and start animation! -->
-    <script>
-        var typed = new Typed('#element', {
-            strings: ['Web Developer.', 'Graphic Designer.', 'Web Designer.', 'Video Editor.', 'Digital Marketing.'],
-            typeSpeed: 100,
-        });
-    </script>
+    <footer>
+        <p>&copy; 2023 Your Website. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
+
+</main>
+
+<!-- Load library from the CDN -->
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<!-- Setup and start animation! -->
+<script>
+    var typed = new Typed('#element', {
+        strings: ['Web Developer.', 'Graphic Designer.', 'Web Designer.', 'Video Editor.', 'Digital Marketing.'],
+        typeSpeed: 100,
+    });
+</script>
 
 </body>
 
