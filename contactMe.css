@@ -1,18 +1,24 @@
 /* Style for the form */
 
+main div div {
+  display: grid;
+  justify-content: center;
+}
+
 form {
   margin: 20px;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 0 10px #ccc;
-  max-width: 600px;
+  box-sizing: border-box;
 }
 
 label {
-  display: inline-block;
+  display: grid;
   margin-bottom: 5px;
   font-weight: bold;
+
 }
 
 input[type="text"],
@@ -23,7 +29,7 @@ input[type="number"],
 textarea,
 select {
   display: block;
-  width: 100%;
+  width: 40vw;
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -33,7 +39,6 @@ select {
 
 input[type="checkbox"] {
   display: inline-block;
-  margin-right: 5px;
 }
 
 input[type="radio"] {
