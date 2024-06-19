@@ -304,7 +304,7 @@ form {
 }
 
 .about-image {
-    background-image: url(./image/image.png);
+    background-image: url(../image/image.png);
     object-fit: contain;
     overflow: hidden;
     width: 600px;
