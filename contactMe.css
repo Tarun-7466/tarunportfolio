@@ -1,10 +1,3 @@
-/* Style for the form */
-
-main div div {
-  display: grid;
-  justify-content: center;
-}
-
 form {
   margin: 20px;
   padding: 20px;
@@ -47,8 +40,8 @@ input[type="radio"] {
 
 input[type="submit"],
 input[type="reset"] {
-  background-color: #4CAF50;
-  color: #322e2d;
+  background-color: #24cfa6;
+  color: black;
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
@@ -60,11 +53,56 @@ input[type="reset"] {
 
 input[type="submit"]:hover,
 input[type="reset"]:hover {
-  background-color: #ec3535;
+  background-color: #20b693;
+  color: black;
+  box-shadow: 0 .20rem 0.5rem #24cfa6;
+  border: 1px solid #24cfa6;
+  outline: 1px solid #24cfa6;
 }
 
 /* Style for the heading */
 
-h2 {
-  text-align: center;
+
+.contactButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.contactButton>input {
+  background-color: #24cfa6;
+  color: black;
+}
+
+
+.form {
+  padding: 0 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-container {
+  width: 700px;
+}
+
+.row-contact {
+  display: grid;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: var(--black);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+}
+
+.row-contact h2 {
+  color: #24cfa6;
+}
+
+
+
+

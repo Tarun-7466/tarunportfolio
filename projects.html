@@ -11,43 +11,133 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
 
-    <style>
-        .footer {
-            padding-top: 100vh;
-            /* max-height: 100vh; */
-        }
-    </style>
-
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="left">Tarun's Portfolio</div>
-            <div class="right">
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Services</a></li>
-                    <li><a href="/">Projects</a></li>
-                    <li><a href="/">Contact Me</a></li>
-
-                </ul>
-            </div>
-        </nav>
-    </header>
-
     <main>
-<div>
+        <div class="circle" id="circle"></div>
+        <header>
+            <nav>
+                <div class="left">Tarun's Portfolio</div>
+                <div class="right">
+                    <ul>
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/About.html">About</a></li>
+                        <li><a href="/Services.html">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="/ContactMe.html">Contact Me</a></li>
+                    </ul>
 
-</div>
+                    <div class="icons">
+                        <div class="fa fa-bars" id="menu-btn"></div>
+                        <div class="fa fa-search" id="search-btn"></div>
+                        <!-- <div class="fa fa-shopping-cart " id="cart-btn"></div> -->
+                        <div class="fa fa-user" id="login-btn"></div>
+                    </div>
+                    <!-- 
+                    <form class="search-form">
+                        <input type="search" id="search-box" placeholder="Search Here.....">
+                        <label for="search-box" class="fa fa-search"></label>
+                    </form> -->
+                </div>
+            </nav>
+        </header>
 
+        <section id="Projects" class="Projects">
+            <!-- <hr> -->
+            <div class="text">
+                <span class="textgreen">What i have done so far</span>
+                <h1>Projects</h1>
+            </div>
+
+            <!-- Project catelouge -->
+            <div class="catelogue">
+
+                <div class="box">
+                    <video src="./image/Recording 2023-11-01 205037.mp4" controls autoplay muted loop></video>
+                    <div class="item">
+                        <a href="/">GitHub</a>
+                        <a href="/">Live Preview</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <video src="./image/Recording 2023-11-03 133316.mp4" controls autoplay muted loop></video>
+                    <div class="item">
+                        <a href="/">GitHub</a>
+                        <a href="/">Live Preview</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <video src="./image/Recording 2023-11-27 142845.mp4" controls autoplay muted loop></video>
+                    <div class="item">
+                        <a href="/">GitHub</a>
+                        <a href="/">Live Preview</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <video src="./image/Tarun - Developer Portfolio - Google Chrome 2023-10-02 19-43-48.mp4" controls
+                        autoplay muted loop></video>
+                    <div class="item">
+                        <a href="/">GitHub</a>
+                        <a href="https://tarun-7466.github.io/tarunportfolio/">Live Preview</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <div class="techStack">
+            <h1>Tech Stacks</h1>
+            <div class="icons">
+                <img src="./svg/html.svg" alt="">
+                <img src="./svg/css3.svg" alt="">
+                <img src="./svg/js.svg" alt="">
+                <img src="./svg/tailwind.svg" alt="">
+                <img src="./svg/bootstrap5.svg" alt="">
+                <img src="./svg/php.svg" alt="">
+                <img src="./svg/mysql.svg" alt="">
+
+            </div>
+        </div>
+        <hr>
     </main>
 
-    <footer>
-        <p>&copy; 2023 Your Website. All rights reserved.</p>
-    </footer>
 
+    <footer class="footer">
+        <!-- <hr> -->
+        <div class="row">
+            <div class="about-footer">
+                <h2>About</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aut!</p>
+            </div>
+            <div class="quickLinks">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="index.html">Projects</a></li>
+                    <li><a href="index.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="address">
+                <h2>Contact</h2>
+                <p>C-32/A, R.K Puram, GZB. </p>
+                <p>Mob : 7466810721</p>
+                <span>Email : sangertarun5621@gmail.com</span>
+            </div>
+            <form action="">
+                <input type="text" name="UserName" placeholder="Full Name">
+                <input type="email" name="Email" placeholder="Email">
+                <textarea name="" id="input" class="form-control" rows="3" required="required"></textarea>
+                <button type="button">Submit</button>
+            </form>
+        </div>
+        <hr>
+        <div class="span">
+            <span>&copy; 2023 Your Website. All rights reserved.</span>
+        </div>
+    </footer>
 
     <!-- Load library from the CDN -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
@@ -55,10 +145,10 @@
     <script>
         var typed = new Typed('#element', {
             strings: ['Web Developer.', 'Graphic Designer.', 'Web Designer.', 'Video Editor.', 'Digital Marketing.'],
-            typeSpeed: 100,
+            typeSpeed: 50,
         });
     </script>
-
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -22,20 +22,20 @@
             <div class="right">
                 <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Services</a></li>
-                    <li><a href="/">Projects</a></li>
-                    <li><a href="/">Contact Me</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contactMe.html">Contact Me</a></li>
 
                 </ul>
             </div>
         </nav>
     </header>
 
-    <main>
-        <div>
+      <section>
+        <div class="form">
             <h2>Contact Me</h2>
-            <div>
+            <div class="form-container">
                 <form action="beckend.php">
 
                     <label for="name"> Name </label>
@@ -50,78 +50,64 @@
                     </div>
                     <br>
 
-                    <label for="Role"> Role </label>
+                    <label for="Role"> Subject </label>
                     <div>
                         <input type="role" name="myRole" id="Role">
                     </div>
                     <br>
 
-                    <label for="Date"> date </label>
-                    <div>
-                        <input type="date" name="myDate" id="date">
-<<<<<<< HEAD
-                        <label for="date">Date</label>
-=======
->>>>>>> 5bfc04fff35d021b7e50d1341a0d735234466cb2
-                    </div>
-                    <br>
-
-                    <label for="Bonus"> Bonus </label>
-                    <div>
-                        <input type="number" name="myBous" id="Bonus">
-                    </div>
-                    <br>
-
                     <label for="Comments">Comments </label>
                     <div>
-<<<<<<< HEAD
-                        <br> <textarea name="myText" id="textarea" cols="20" rows="5"></textarea>
-                        <label for="textarea">Enter the text</label>
-=======
-                        <br> <textarea name="myText" id="" cols="20" rows="5"></textarea>
->>>>>>> 5bfc04fff35d021b7e50d1341a0d735234466cb2
+                        <label for="textarea"></label>
+                        <textarea name="myText" id="textarea" cols="20" rows="5">Enter the text</textarea>
                     </div>
                     <br>
 
-                    <div>
-                        <label for="car">Car</label>
-                        <select name="myCar" id="car">
-                            <option value="ind">Supraa</option>
-                            <option value="swf">Swift</option>
-                            <option value="swfdzr">SwiftDzire</option>
-                            <option value="ertg">Eirtiga</option>
-                        </select>
+                    <div class="contactButton">
+                        <input type="submit" value="Sunmit Now">
+
+                        <input type="reset" value="Reset Now">
                     </div>
-                    <br>
-
-                    <label for=" Are you eligible?"> Are you eligible? </label>
-                    <div>
-<<<<<<< HEAD
-                        <input type="checkbox" name="myEligibility" checked id="checkbox">
-                        <label for="checkbox">myEligibility</label>
-                    </div> <br>
-
-                
-=======
-                        <input type="checkbox" name="myEligibility" checked id="">
-                    </div> <br>
-
-                    <div>
-                        Gender : Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
-                        Other
-                        <input type="radio" name="myGender">
-                    </div><br>
->>>>>>> 5bfc04fff35d021b7e50d1341a0d735234466cb2
-
-                    <div>
-                        <input type="submit" value="Sunmit Now"> <input type="reset" value="Reset Now">
                 </form>
             </div>
         </div>
 
-        <footer>
-            <p>&copy; 2023 Your Website. All rights reserved.</p>
-        </footer>
+      </section>
+     
+    <footer class="footer">
+        <!-- <hr> -->
+        <div class="row-contact">
+            <div class="about-footer">
+                <h2>About</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aut!</p>
+            </div>
+            <div class="quickLinks">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contactMe.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="address">
+                <h2>Contact</h2>
+                <p>C-32/A, R.K Puram, GZB. </p>
+                <p>Mob : 7466810721</p>
+                <span>Email : sangertarun5621@gmail.com</span>
+            </div>
+            <!-- <form action="">
+                <input type="text" name="UserName" placeholder="Full Name">
+                <input type="email" name="Email" placeholder="Email">
+                <textarea name="" id="input" class="form-control" rows="3" required="required"></textarea>
+                <button type="button">Submit</button>
+            </form> -->
+        </div>
+        <hr>
+        <div class="span">
+            <span>&copy; 2023 Your Website. All rights reserved.</span>
+        </div>
+    </footer>
 
     </main>
 
