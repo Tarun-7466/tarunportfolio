@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarun - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="ContactMe.css">
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Tarun's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contactMe.html">Contact Me</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+      <section>
+        <div class="form">
+            <h2>Contact Me</h2>
+            <div class="form-container">
+                <form action="beckend.php">
+
+                    <label for="name"> Name </label>
+                    <div>
+                        <input type="text" name="myName" id="name">
+                    </div>
+                    <br>
+
+                    <label for="Email"> Email </label>
+                    <div>
+                        <input type="Email" name="myEmail" id="Email">
+                    </div>
+                    <br>
+
+                    <label for="Role"> Subject </label>
+                    <div>
+                        <input type="role" name="myRole" id="Role">
+                    </div>
+                    <br>
+
+                    <label for="Comments">Comments </label>
+                    <div>
+                        <label for="textarea"></label>
+                        <textarea name="myText" id="textarea" cols="20" rows="5">Enter the text</textarea>
+                    </div>
+                    <br>
+
+                    <div class="contactButton">
+                        <input type="submit" value="Sunmit Now">
+
+                        <input type="reset" value="Reset Now">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+      </section>
+     
+    <footer class="footer">
+        <!-- <hr> -->
+        <div class="row-contact">
+            <div class="about-footer">
+                <h2>About</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aut!</p>
+            </div>
+            <div class="quickLinks">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contactMe.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="address">
+                <h2>Contact</h2>
+                <p>C-32/A, R.K Puram, GZB. </p>
+                <p>Mob : 7466810721</p>
+                <span>Email : sangertarun5621@gmail.com</span>
+            </div>
+            <!-- <form action="">
+                <input type="text" name="UserName" placeholder="Full Name">
+                <input type="email" name="Email" placeholder="Email">
+                <textarea name="" id="input" class="form-control" rows="3" required="required"></textarea>
+                <button type="button">Submit</button>
+            </form> -->
+        </div>
+        <hr>
+        <div class="span">
+            <span>&copy; 2023 Your Website. All rights reserved.</span>
+        </div>
+    </footer>
+
+    </main>
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'Graphic Designer.', 'Web Designer.', 'Video Editor.', 'Digital Marketing.'],
+            typeSpeed: 100,
+        });
+    </script>
+
+</body>
+
+</html>

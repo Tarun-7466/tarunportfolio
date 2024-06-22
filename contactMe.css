@@ -1,0 +1,108 @@
+form {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ccc;
+  box-sizing: border-box;
+}
+
+label {
+  display: grid;
+  margin-bottom: 5px;
+  font-weight: bold;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="role"],
+input[type="date"],
+input[type="number"],
+textarea,
+select {
+  display: block;
+  width: 40vw;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  background-color: #24cfa6;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #20b693;
+  color: black;
+  box-shadow: 0 .20rem 0.5rem #24cfa6;
+  border: 1px solid #24cfa6;
+  outline: 1px solid #24cfa6;
+}
+
+/* Style for the heading */
+
+
+.contactButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contactButton>input {
+  background-color: #24cfa6;
+  color: black;
+}
+
+
+.form {
+  padding: 0 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-container {
+  width: 700px;
+}
+
+.row-contact {
+  display: grid;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: var(--black);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+}
+
+.row-contact h2 {
+  color: #24cfa6;
+}
+
+
+
+
