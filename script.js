@@ -10,6 +10,25 @@
 //         circle.style.left = `${xValue}px`;
 //     }, 10); // Adjust the delay (in milliseconds) as needed for smoother animation
 // });
+
+
+document.getElementById('menu-btn').addEventListener('click', function() {
+    var navLinks = document.getElementById('nav-links');
+    navLinks.classList.toggle('active');
+});
+
+
+
+let loginForm = document.querySelector('.login-form');
+
+document.querySelector('#login-btn').onclick = () => {
+    loginForm.classList.toggle('active');
+    searchForm.classList.remove('active');
+    shoppingCart.classList.remove('active');
+    menuButton.classList.remove('active');
+
+}
+
 let menuButton = document.querySelector('.navbar');
 
 document.querySelector('#menu-btn').onclick = () => {
