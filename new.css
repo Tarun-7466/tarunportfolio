@@ -170,6 +170,7 @@ hr {
     position: relative;
     width: 100%;
     height: 100%;
+    line-height: 3vh;
 }
 
 .Projects .text {
@@ -324,7 +325,7 @@ form {
 .about-text {
     /* height: 100%; */
     width: 50%;
-    line-height: 10vh;
+    line-height: 6vh;
     color: #fff;
 }
 
@@ -334,10 +335,10 @@ form {
 }
 
 .about-text p {
-    line-height: 3vh;
+    line-height: 6vh;
     font-size: 1rem;
     font-weight: 400;
-
+padding: 1vh 0;
 }
 
 .about-text ul {
@@ -346,7 +347,7 @@ form {
     /* align-items: center; */
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 1vh;
+    gap: 2vh;
 
 
 }
@@ -641,7 +642,7 @@ button {
     gap: 15px;
     width: 100%;
   }
-
+.skills-list, .work-list{line-height: 4vh;}
     .heading {
         font-size: 2.5rem;
     }
